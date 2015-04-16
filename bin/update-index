@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+main() {
+  echo Coming soon...
+}
+
+die() { echo "$@" >&2; exit 1; }
+
+[ "$0" != "$BASH_SOURCE" ] || main "$@"
