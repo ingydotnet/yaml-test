@@ -1,0 +1,5 @@
+Top Level Null
+tags: scalar
+test: *perl.eval.dump == *yaml
+test: *yaml.load === *perl.load
+from: https://github.com/ingydotnet/yaml-pm/blob/d11e553/test/2-scalars.t
